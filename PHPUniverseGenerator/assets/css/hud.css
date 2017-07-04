@@ -1,0 +1,153 @@
+#hud {
+	height: 500px;
+    width: 600px;
+
+	border-left: thick outset #39FF14;
+	border-right: thick outset #39FF14;
+    display: block;
+    position: absolute;
+    top: 20%;
+    /* width: 100%; */
+    padding: 5px;
+    z-index: 100;
+    left: 35%;
+}
+
+.hudElement {
+	color: #39FF14;
+}
+
+.activeElement {
+	border: 1px solid #39FF14 !important;
+}
+
+#name {
+	position: absolute;
+	left: 270px;
+	bottom: 10px;
+}
+
+#probeDistance {
+	height: 35px;
+	width: 200px;
+	position: absolute;
+	left: -215px;
+	top: 0px;
+	background-color: #39FF14;
+	opacity: 0.2;
+}
+
+#probeDistanceValueHolder {
+	height: 35px;
+	width: 200px;
+	position: absolute;
+	left: -215px;
+	top: 0px;
+	border: 1px solid #267340;
+}
+
+#dockOption {
+	height: 35px;
+	width: 200px;
+	position: absolute;
+	left: -215px;
+	top: 40px;
+	background-color: #39FF14;
+	opacity: 0.2;
+}
+
+#dockOptionHolder {
+	height: 35px;
+	width: 200px;
+	position: absolute;
+	left: -215px;
+	top: 40px;
+	border: 1px solid #267340;
+}
+
+.dockOptionValue1 {
+	position: absolute;
+	left: 50px;
+	top: 9px;
+}
+
+.dockOptionValue2 {
+	position: absolute;
+	left: 62px;
+	top: 9px;
+}
+
+#speedOption {
+	height: 35px;
+	width: 200px;
+	position: absolute;
+	left: -215px;
+	top: 80px;
+	background-color: #39FF14;
+	opacity: 0.2;
+}
+
+#speedOptionHolder {
+	height: 35px;
+	width: 200px;
+	position: absolute;
+	left: -215px;
+	top: 80px;
+	border: 1px solid #267340;
+}
+
+.speedOptionValue1 {
+	position: absolute;
+	left: 62px;
+	top: 9px;
+}
+
+.speedOptionValue2 {
+	position: absolute;
+	left: 65px;
+	top: 9px;
+}
+
+#dataBox {
+	height: 350px;
+	width: 300px;
+	position: absolute;
+	right: -315px;
+	top: 0px;
+	background-color: #39FF14;
+	opacity: 0.2;
+}
+
+#dataBoxHolder {
+	height: 350px;
+	width: 300px;
+	position: absolute;
+	right: -315px;
+	top: 0px;
+	border: 1px solid #267340;
+}
+
+#radarBox {
+	height: 378px;
+	width: 200px;
+	position: absolute;
+	left: -215px;
+	top: 130px;
+	background-color: #39FF14;
+	opacity: 0.2;
+}
+
+#radarBoxHolder {
+	height: 378px;
+	width: 200px;
+	position: absolute;
+	left: -215px;
+	top: 130px;
+	border: 1px solid #267340;
+}
+
+.radarObject {
+	position: absolute;
+	left: 62px;
+	top: 9px;
+}
